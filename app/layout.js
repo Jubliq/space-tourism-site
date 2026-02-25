@@ -1,15 +1,23 @@
-import { Geist, Geist_Mono } from "next/font/google";
+import { Bellefair, Barlow, Barlow_Condensed } from "next/font/google";
 import "./globals.css";
 import Header from "./_components/Header";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+const getBellefair = Bellefair({
+  variable: "--font-bellefair",
   subsets: ["latin"],
+  weight: ["400"],
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
+const getBarlow = Barlow({
+  variable: "--font-barlow",
   subsets: ["latin"],
+  weight: ["400"],
+});
+
+const barlowCondensed = Barlow_Condensed({
+  variable: "--font-barlow-condensed",
+  subsets: ["latin"],
+  weight: ["400"],
 });
 
 export const metadata = {
