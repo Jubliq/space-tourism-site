@@ -3,8 +3,8 @@ import Navigation from "./Navigation";
 
 function Header() {
   return (
-    <header>
-      <div className="flex justify-between items-center max-w-7xl mx-auto">
+    <header className="absolute top-0 left-0 w-full z-50">
+      <div className="flex justify-between items-center xl mx-auto px-8 py-4 text-white">
         <Logo />
         <Navigation />
       </div>
