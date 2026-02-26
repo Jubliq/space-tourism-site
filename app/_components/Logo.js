@@ -10,7 +10,7 @@ function Logo() {
         height="60"
         width="60"
         alt="Space tourism logo"
-        quality={100}
+        quality={75}
       />
     </Link>
   );
