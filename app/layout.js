@@ -11,13 +11,13 @@ const getBellefair = Bellefair({
 const getBarlow = Barlow({
   variable: "--font-barlow",
   subsets: ["latin"],
-  weight: ["400"],
+  weight: ["100", "400"],
 });
 
 const barlowCondensed = Barlow_Condensed({
   variable: "--font-barlow-condensed",
   subsets: ["latin"],
-  weight: ["400"],
+  weight: ["100", "200", "400"],
 });
 
 export const metadata = {
@@ -33,7 +33,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body
         className={`${getBellefair.variable} ${getBarlow.variable}
-    ${barlowCondensed.variable} antialiased min-h-screen flex flex-col`}
+    ${barlowCondensed.variable} antialiased min-h-screen flex flex-col `}
       >
         <Header />
         {children}

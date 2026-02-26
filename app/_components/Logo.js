@@ -4,7 +4,7 @@ import Image from "next/image";
 
 function Logo() {
   return (
-    <Link href="/" className="">
+    <Link href="/" className="px-8 w-36">
       <Image
         src={logo}
         height="60"
