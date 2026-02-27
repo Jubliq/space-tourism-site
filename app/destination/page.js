@@ -54,7 +54,7 @@ function Page() {
           <div className="flex flex-col xl:justify-end xl:gap-8">
             <div className="p-6 flex flex-col items-center justify-between gap-2 xl:p-0 xl:items-start">
               <nav>
-                <ul className="flex gap-8">
+                <ul className="flex gap-8 text-white">
                   {destinations.map((p, index) => (
                     <li key={p.name}>
                       <div
@@ -71,7 +71,7 @@ function Page() {
                 </ul>
               </nav>
 
-              <h1 className="text-[56px] md:text-[100px] uppercase">
+              <h1 className="text-[56px] md:text-[100px] uppercase text-white">
                 {destinations[planet].name}
               </h1>
               <p className="text-[15px] text-blue-300 font-barlow md:text-[16px]">
