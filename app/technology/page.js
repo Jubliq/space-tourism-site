@@ -45,19 +45,19 @@ function Page() {
         <div className="px-6 mx-auto flex items-center mt-8 flex-col lg:flex-row lg:max-w-2xl max-h-80">
           <div className="flex gap-4 text-l lg:flex-col">
             <button
-              className={`w-10 h-10 border lg:w-20 lg:h-20 lg:text-3xl ${curTech === 0 ? "bg-white text-blue-900" : "bg-transparent text-white"} rounded-full`}
+              className={`w-10 h-10 border transition-color duration-200 border-white/40 hover:border-white lg:w-20 lg:h-20 lg:text-3xl cursor-pointer ${curTech === 0 ? "bg-white text-blue-900" : "bg-transparent text-white"} rounded-full`}
               onClick={() => setCurTech(0)}
             >
               1
             </button>
             <button
-              className={`w-10 h-10 border lg:w-20 lg:h-20 lg:text-3xl ${curTech === 1 ? "bg-white text-blue-900" : "bg-transparent text-white"} rounded-full`}
+              className={`w-10 h-10 border transition-color duration-200 border-white/40 hover:border-white lg:w-20 lg:h-20 lg:text-3xl cursor-pointer ${curTech === 1 ? "bg-white text-blue-900" : "bg-transparent text-white"} rounded-full`}
               onClick={() => setCurTech(1)}
             >
               2
             </button>
             <button
-              className={`w-10 h-10 border lg:w-20 lg:h-20 lg:text-3xl ${curTech === 2 ? "bg-white text-blue-900" : "bg-transparent text-white"} rounded-full`}
+              className={`w-10 h-10 border transition-color duration-200 border-white/40 hover:border-white lg:w-20 lg:h-20 lg:text-3xl cursor-pointer ${curTech === 2 ? "bg-white text-blue-900" : "bg-transparent text-white"} rounded-full`}
               onClick={() => setCurTech(2)}
             >
               3
