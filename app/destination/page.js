@@ -23,7 +23,7 @@ function Page() {
         <img
           src="/destination/background-destination-mobile.jpg"
           alt="background-image"
-          className="absolute inset-0 w-full"
+          className="absolute inset-0 w-full h-full object-cover"
         />
       </picture>
 
