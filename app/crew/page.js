@@ -10,7 +10,7 @@ function Page() {
   const [curCrew, setCurCrew] = useState(0);
 
   return (
-    <div className="min-h-screen h-fit w-full animate-fadeIn">
+    <div className="min-h-screen h-fit w-full animate-fadeIn text-white">
       <picture className="absolute inset-0 -z-10">
         <source
           media="(min-width: 1280px)"
@@ -35,18 +35,14 @@ function Page() {
           exit={{ opacity: 0 }}
           transition={{ duration: 0.25 }}
         >
-          <div className="flex gap-4 py-4 md:px-10 text-white min-w-[300px]bg-red-500 justify-center mt-20 md:mt-30 md:justify-start lg:mt-48 lg:max-w-[1110px] lg:mx-auto">
-            <p className="font-barlow-condensed tracking-widest font-bold opacity-50 text-lg md:text-xl lg:text-3xl">
-              02
-            </p>
-            <h1 className="font-barlow-condensed font-extralight tracking-wider text-lg md:text-xl uppercase lg:text-3xl">
-              Meet your crew
-            </h1>
+          <div className="min-w-xs px-6 mx-auto flex justify-center uppercase font-barlow-condesed gap-6 mt-28 text-md md:justify-start md:px-10 md:text-xl md:mt-34 xl:mt-46 xl:max-w-7xl">
+            <p className="font-bold opacity-25">02</p>
+            <h2>meet your crew</h2>
           </div>
 
           <div className="xl:flex xl:max-w-[1110px] mx-auto">
-            <main className="text-white min-w-[300px] mx-auto flex flex-col items-center px-8 md:items-start md:mt-4 lg:max-w-[1110px] lg:mt-32">
-              <div className="py-8 text-center md:mt-4 md:mx-auto lg:text-start lg:ml-0 lg:mt-32">
+            <main className="text-white min-w-[300px] mx-auto flex flex-col items-center px-8 md:items-start md:mt-4 xl:max-w-[1110px] xl:mt-32">
+              <div className="py-8 text-center md:mt-4 md:mx-auto lg:text-start xl:ml-0 xl:mt-32">
                 <p className="text-xl md:text-2xl opacity-50 tracking-wider uppercase">
                   {crewMember[curCrew].role}
                 </p>
@@ -57,7 +53,7 @@ function Page() {
                   {crewMember[curCrew].bio}
                 </p>
               </div>
-              <div className="flex justify-center gap-5 py-10 lg:justify-start lg:max-w-[1110px] mx-auto px-8 mt-10 md:mt-0">
+              <div className="flex justify-center gap-5 py-10 lg:justify-start xl:max-w-[1110px] mx-auto px-8 mt-10 md:mt-0">
                 {crewMember.map((crew, index) => (
                   <div
                     key={crew.name}
@@ -70,7 +66,7 @@ function Page() {
               </div>
             </main>
 
-            <div className="relative w-64 h-72 mx-auto md:w-96 md:h-110 lg:w-[540px] lg:h-[680px]">
+            <div className="relative w-64 h-72 mx-auto md:w-96 md:h-110 xl:w-[540px] xl:h-[680px]">
               <Image
                 src={crewMember[curCrew].images.png}
                 fill

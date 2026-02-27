@@ -31,7 +31,7 @@ function Page() {
 
       <div className="min-w-xs px-6 mx-auto flex justify-center uppercase font-barlow-condesed gap-6 mt-28 text-md md:justify-start md:px-10 md:text-xl md:mt-34 lg:mt-46 lg:max-w-7xl">
         <p className="font-bold opacity-25">03</p>
-        <h2 className="">space launch 101</h2>
+        <h2>space launch 101</h2>
       </div>
 
       <AnimatePresence mode="wait">

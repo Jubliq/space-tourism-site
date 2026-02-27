@@ -11,7 +11,7 @@ function Page() {
   const [planet, setPlanet] = useState(0);
 
   return (
-    <div className="min-h-screen w-full flex flex-col items-center justify-start mx-auto xl:flex-row xl:items-end pb-5 xl:pb-32 animate-fadeIn">
+    <div className="min-h-screen w-full flex flex-col items-center justify-start mx-auto xl:flex-row xl:items-end pb-5 xl:pb-32 animate-fadeIn text-white">
       <picture className="absolute inset-0 -z-10">
         <source
           media="(min-width: 1280px)"
@@ -38,15 +38,9 @@ function Page() {
           className="flex flex-col w-full mt-24 xl:max-w-277.5 xl:mx-auto"
         >
           <div>
-            <div className="mt-6 md:mt-10 xl:mt-12 xl: xl:flex xl:justify-start ">
-              <div className="flex gap-4 pb-4 justify-center items-center">
-                <span className="bold text-white/25 md:text-[28px] font-barlow-condensed bold">
-                  01
-                </span>
-                <h3 className="text-[16px] text-blue-300 font-barlow-condensed md:text-[28px] uppercase">
-                  Pick your destination
-                </h3>
-              </div>
+            <div className="min-w-xs px-6 mx-auto flex justify-center uppercase font-barlow-condesed gap-6 mt-14 mb-8 text-md md:justify-start md:px-10 md:text-xl md:mt-34 lg:mt-46 xl:max-w-7xl xl:mt-0 ">
+              <p className="font-bold opacity-25">01</p>
+              <h2>pick your destination</h2>
             </div>
 
             <div className="xl:flex xl:mt-6 xl:gap-30">
