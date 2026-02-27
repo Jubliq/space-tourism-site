@@ -11,7 +11,7 @@ function Page() {
   const [curTech, setCurTech] = useState(0);
 
   return (
-    <div className="text-white ">
+    <div className="text-white animate-fadeIn">
       <picture className="absolute inset-0 -z-10">
         <source
           media="(min-width: 1440px)"

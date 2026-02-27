@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className="min-h-screen flex flex-col items-center justify-start xl:flex-row xl:items-end xl:pb-32">
+    <div className="min-h-screen flex flex-col items-center justify-start xl:flex-row xl:items-end xl:pb-32 animate-fadeIn">
       <picture className="absolute inset-0 -z-10">
         <source
           media="(min-width: 1280px)"

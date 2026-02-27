@@ -10,7 +10,7 @@ function Page() {
   const [planet, setPlanet] = useState(0);
 
   return (
-    <div className="min-h-screen w-full flex flex-col items-center justify-start mx-auto xl:flex-row xl:items-end pb-5 xl:pb-32">
+    <div className="min-h-screen w-full flex flex-col items-center justify-start mx-auto xl:flex-row xl:items-end pb-5 xl:pb-32 animate-fadeIn">
       <picture className="absolute inset-0 -z-10">
         <source
           media="(min-width: 1280px)"

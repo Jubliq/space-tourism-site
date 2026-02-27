@@ -9,7 +9,7 @@ function Page() {
   const [curCrew, setCurCrew] = useState(0);
 
   return (
-    <div className="min-h-screen h-fit w-full">
+    <div className="min-h-screen h-fit w-full animate-fadeIn">
       <picture className="absolute inset-0 -z-10">
         <source
           media="(min-width: 1280px)"
@@ -66,7 +66,7 @@ function Page() {
             src={crewMember[curCrew].images.png}
             fill
             alt={crewMember[curCrew].name}
-            className="object-contain"
+            className="object-contain [mask-image:linear-gradient(to_top,transparent,black_20%)]"
           />
         </div>
       </div>
