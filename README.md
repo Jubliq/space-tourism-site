@@ -8,7 +8,7 @@
 
 ## 🌐 **Projeto Online:** 
 
-- https://space-tourism-site-xi.vercel.app/
+- https://space-tourism-site-sigma.vercel.app
 
 ## 📌 Sobre o Projeto
 
@@ -70,6 +70,6 @@ Para rodar este projeto Next.js na sua máquina:
 
 Este projeto foi uma jornada de aprendizado compartilhada e um marco no meu desenvolvimento técnico.
 
-> **Agradecimento Especial:** Um agradecimento enorme ao [Matheus Gonçalves Stein](https://github.com/Jubliq) por todo o apoio e colaboração no desenvolvimento deste site. Trabalhar em conjunto nos permitiu explorar a fundo os conceitos de *App Router* do Next.js e resolver desafios de lógica e design que elevaram o projeto a outro nível.
+> **Agradecimento Especial:** Um agradecimento enorme ao [Gabriel Gonçalves Stein](https://github.com/GabGStein) por todo o apoio e colaboração no desenvolvimento deste site. Trabalhar em conjunto nos permitiu explorar a fundo os conceitos de *App Router* do Next.js e resolver desafios de lógica e design que elevaram o projeto a outro nível.
 
 ---
